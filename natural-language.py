@@ -7,7 +7,7 @@ import numpy as np
 import torch
 from huggingface_hub import login
 
-# login("3niola", "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")
+# login("3niola", "hf")
 
 # Define constants
 MODEL_NAME = "facebook/bart-large-cnn"
