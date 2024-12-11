@@ -13,9 +13,9 @@ from summarization import summarize_text
 from tone_adjustment import conversational_tone, rule_based_tone
 
 # Define constants
-summarizer = pipeline("summarization", MODEL_NAME = "facebook/bart-large-cnn")
+summarizer = pipeline("summarization", model="facebook/bart-large-cnn", device="cuda")
 
-
+MODEL_NAME = "facebook/bart-large-cnn"
 
 # Initialize tokenizer and model
 tokenizer = AutoTokenizer.from_pretrained(MODEL_NAME)
