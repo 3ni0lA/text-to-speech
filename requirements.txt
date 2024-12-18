@@ -1,3 +1,0 @@
-# requirements.txt
-PyPDF2
-python-docx
